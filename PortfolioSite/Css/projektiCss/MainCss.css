@@ -26,6 +26,98 @@ body {
         inset 10px 10px 10px #FFFFFF;
 }
 
+.Main div#vs {
+    padding: 30px;
+    width: 90%;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: light;
+    box-shadow: 
+        -10px -10px 30px #FFFFFF,
+        10px 10px 30px rgba(174, 174, 192, 0.4),
+        inset -10px -10px 10px rgba(174, 174, 192, 0.25),
+        inset 10px 10px 10px #FFFFFF;
+}
+
+.Main div#unity {
+    padding: 30px;
+    width: 90%;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: light;
+    box-shadow: 
+        -10px -10px 30px #FFFFFF,
+        10px 10px 30px rgba(174, 174, 192, 0.4),
+        inset -10px -10px 10px rgba(174, 174, 192, 0.25),
+        inset 10px 10px 10px #FFFFFF;
+}
+
+.Main div#python {
+    padding: 30px;
+    width: 90%;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: light;
+    box-shadow: 
+        -10px -10px 30px #FFFFFF,
+        10px 10px 30px rgba(174, 174, 192, 0.4),
+        inset -10px -10px 10px rgba(174, 174, 192, 0.25),
+        inset 10px 10px 10px #FFFFFF;
+}
+
+.Main div#muzika {
+    padding: 30px;
+    width: 90%;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: light;
+    box-shadow: 
+        -10px -10px 30px #FFFFFF,
+        10px 10px 30px rgba(174, 174, 192, 0.4),
+        inset -10px -10px 10px rgba(174, 174, 192, 0.25),
+        inset 10px 10px 10px #FFFFFF;
+}
+
+#slikeWheelRoblox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+#RobloxSlika {
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#slikeWheelRoblox input[type="button"] {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    font-size: larger;
+    box-shadow: 
+        -10px -10px 10px rgba(255, 255, 255, 0.7),
+        10px 10px 10px rgba(174, 174, 192, 0.2);
+    overflow: hidden;
+}
+
+#slikeWheelRoblox input[type="button"]:hover {
+  background-color: #0056b3;
+  color: #FFFFFF;
+  transition: background-color 100ms ease;
+}
+
+#slikeWheelRoblox input[type="button"]:active {
+  background-color: #004494;
+  animation-duration: 100ms;
+}
+
 .Main {
     font-family: "Poppins", sans-serif;
     font-weight: light;

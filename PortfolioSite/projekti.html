@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="Css/FadeInCs.css">
     <link rel="stylesheet" href="Css/projektiCss/MainCss.css">
+    <link rel="stylesheet" href="Css/CardHolder.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekti - Portfolio LC</title>
@@ -31,47 +33,144 @@
             <button onclick="contactPage()">Kontakt</button>
         </div>
         <div id="stranice2">
-            <button onclick="projektiPage()">Roblox<br>projekti</button>
-            <button onclick="projektiPage()">Visual Studio Projekti</button>
-            <button onclick="projektiPage()">Unity<br>projekti</button>
-            <button onclick="projektiPage()">Moja<br>muzika</button>
+            <button onclick="robloxStvari()">Roblox<br>projekti</button>
+            <button onclick="vsStvari()">Visual Studio Projekti</button>
+            <button onclick="unityStvari()">Unity<br>projekti</button>
+            <button onclick="pythonProjekti()">Python<br>projekti</button>
+            <button onclick="muzikaStvari()">Moja<br>muzika</button>
         </div>
     </div>
     <div class="Main">
-            <div id="roblox">
-                <p>
-                    Ja sam oduvek bio faciniran kvizovima, tv produkcijom, programiranjem svetala i setova i tu skoju želju sam prikazao
-                    pravljenjem setova u robloxu.<br>
-                    Tako sam skupio preko 2000 ljudi koji vole šou program koji sam ja pravio sa 10 ljudi koje sam zaposlio da rade kao voditelji, koordinatori,
-                    producenti...<br>
-                    Ja sam kao glavni programer, kodirao, scene buildovao i pravio i skidao muziku sa popularnih kvizova kao Potera, Superpotera, Želite li postati milioner?, itd.<br>
-                    Napravio sam i dve igrice koje zajedno imaju preko 150+ hiljada pregleda i imaju aktivne igrače do danas.
-                </p>
-                <br><br>
+        <div id="roblox">
+            <p>
+                Ja sam oduvek bio faciniran kvizovima, tv produkcijom, programiranjem svetala i setova i tu skoju želju sam prikazao
+                pravljenjem setova u robloxu.<br>
+                Tako sam skupio preko 2000 ljudi koji vole šou program koji sam ja pravio sa 10 ljudi koje sam zaposlio da rade kao voditelji, koordinatori,
+                producenti...<br>
+                Ja sam kao glavni programer, kodirao, scene buildovao i pravio i skidao muziku sa popularnih kvizova kao Potera, Superpotera, Želite li postati milioner?, itd.<br>
+                Napravio sam i dve igrice koje zajedno imaju preko 150+ hiljada pregleda i imaju aktivne igrače do danas.
+            </p>
+            <br><br>
+
+            <div class="cardHolder">
+                <div class="card">
+                    <a href="https://www.roblox.com/games/10920021604/LP-Millionaire-Classic" target="_blank" id="link">LP: Millionaire Classic (ROLEPLAY)</a>
+                    <br>
+                    <img src="Slike/RobloxSetovi/millionaire.png" target="_blank" alt="slika nije ucitana" id="thumbnail">
+                </div>
+
+                <div class="card">
+                    <a href="https://www.roblox.com/games/17499974793/The-Chase-US-Roleplay" id="link">The Chase US: Roleplay</a>
+                    <br>
+                    <img src="Slike/RobloxSetovi/Screenshot 2026-06-01 200218.png" alt="slika nije ucitana" id="thumbnail">
+                </div>
+            </div>
+
+            <p>Pored ovoga, pravio sam razne druge igrice i projekte.</p>
+            <br>
+
+            <div id="slikeWheelRoblox">
+                <script src="Scripts/slikeWheelRoblox.js" defer></script>
+                <input type="button" value="<" id="b1">
+                <img src="Slike/SetoviImgsStvar/1.png" alt="nema" id="RobloxSlika">
+                <input type="button" value=">" id="b2">
+            </div>
+
+            <br><br>
+        </div>
+
+        <div id="vs">
+            <p>
+                Neke od projekata napravljenje za takmičenja iz informatike. Primarno koristio Web Forme.<br>
+                Za jedan projekat koristio sam MAUI.NET framework, uz tim ljudi dospeli smo do finala takmičenja.
+            </p>
 
                 <div class="cardHolder">
-                    <link rel="stylesheet" href="Css/CardHolder.css">
                     <div class="card">
-                        <a href="https://www.roblox.com/games/10920021604/LP-Millionaire-Classic" id="link">LP: Millionaire Classic (ROLEPLAY)</a>
+                        <a href="DownloadFiles/vizio.pdf" target="_blank" id="link">VIZIO 3D (PDF)</a>
                         <br>
-                        <img src="Slike/RobloxSetovi/millionaire.png" alt="slika nije ucitana" id="thumbnail">
+                        <img src="Slike/vizioslika.png" alt="slika nije ucitana" id="thumbnail">
                     </div>
 
                     <div class="card">
-                        <a href="https://www.roblox.com/games/17499974793/The-Chase-US-Roleplay" id="link">The Chase US: Roleplay</a>
+                        <a href="DownloadFiles/wiregen.pdf" target="_blank" id="link">WIREGEN (PDF)</a>
                         <br>
-                        <img src="Slike/RobloxSetovi/Screenshot 2026-06-01 200218.png" alt="slika nije ucitana" id="thumbnail">
+                        <img src="Slike/wiregen.png" alt="slika nije ucitana" id="thumbnail">
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Skypro009/MindwavE" target="_blank" id="link">MindwavE</a>
+                        <br>
+                        <img src="Slike/mindwave.png" alt="slika nije ucitana" id="thumbnail">
                     </div>
                 </div>
+        </div>
 
-                <p>Pored ovoga, pravio sam razne druge igrice i projekte.</p>
+        <div id="unity">
+            <p>
+                Neke od projekata napravljenje sa Unity game engine-om.
+            </p>
 
-                <div id="slikeWheel">
-                    
+            <div class="cardHolder">
+                <div class="card">
+                    <a href="DownloadFiles/plk.pdf" target="_blank" id="link">Prva Linija Koda (PDF)</a>
+                    <br>
+                    <img src="Slike/plk.png" alt="slika nije ucitana" id="thumbnail">
                 </div>
 
+                <div class="card">
+                    <a href="https://thylala.itch.io/yebetel-game-jam" target="_blank" id="link">Brufen</a>
+                    <br>
+                    <img src="Slike/OJoiGZ.png" alt="slika nije ucitana" id="thumbnail">
+                </div>
             </div>
+        </div>
+
+        <div id="python">
+            <p>
+                2026. napravio sam mini operativni sistem za uredjaj <a href="https://docs.m5stack.com/en/core/M5StickC%20PLUS2" target="_blank">M5 StickC-Plus2</a>
+                koristeći micropython i UiFlow2 pokretač.
+            </p>
+
+            <div class="cardHolder">
+                <div class="card">
+                    <a href="DownloadFiles/pile.pdf" target="_blank" id="link">Uređaj kao alternativa ili dodatak telefonu (PILE) (PDF)</a>
+                    <br>
+                    <img src="Slike/pile1.png" alt="slika nije ucitana" id="thumbnail">
+                </div>
+
+                <div class="card">
+                    <a href="https://github.com/ThyyLala/PILE" target="_blank" id="link">Pile (GitHub repozitorija)</a>
+                    <br>
+                    <img src="Slike/pile2.png" alt="slika nije ucitana" id="thumbnail">
+                </div>
+            </div>
+        </div>
+        
+        <div id="muzika">
+            <p>
+                Muzika i pravljenje muzike je moj hobi još od vremena pre nego što sam krenuo da se bavim programiranjem.<br>
+                Bavim se muzikom od malih nogu i nakon što sam naučio FL studio i korišćenje nekog DAW-a nebo je granica bila.<br>
+                Ovde ću staviti linkove ka mom bandcamp albumima.
+            </p>
+
+            <div class="cardHolder">
+                <div class="card">
+                    <a href="https://thyylala.bandcamp.com/album/the-gathering-ost" target="_blank" id="link">The Gathering OST</a>
+                    <br>
+                    <img src="Slike/gathering.jpg" alt="slika nije ucitana" id="thumbnail">
+                </div>
+
+                <div class="card">
+                    <a href="https://thyylala.bandcamp.com/album/did-i-react-to-chains" target="_blank" id="link">Did I React to Chains?</a>
+                    <br>
+                    <img src="Slike/chains.jpg" alt="slika nije ucitana" id="thumbnail">
+                </div>
+            </div>
+        </div>
     </div>
+
+
     
     <div id="Footer">
          <br><br>

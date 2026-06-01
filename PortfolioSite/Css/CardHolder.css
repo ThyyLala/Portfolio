@@ -12,7 +12,7 @@
     padding: 10px;
     border-collapse: collapse;
     display: block;
-    margin: 10px;
+    margin: 10px;   
     margin-right: 0%;
     font-family: Arial, sans-serif;
     border-radius: 5px;
@@ -27,10 +27,12 @@
     margin: auto;
     border-radius: 8px;
     display: block;
-
+    object-fit: cover;
 }
 
 .cardHolder .card #link {
     text-decoration: none;
     text-align: center;
+    margin: auto;
+    
 }
