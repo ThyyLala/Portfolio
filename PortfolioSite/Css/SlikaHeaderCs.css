@@ -46,3 +46,8 @@ span#HeaderIme {
     text-shadow: 
       0px 0px 30px #ffe469;
 }
+
+div #Projekti {
+  max-width: 1000px;
+  max-height: 400px;
+}
